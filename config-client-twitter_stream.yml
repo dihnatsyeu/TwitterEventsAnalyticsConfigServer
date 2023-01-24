@@ -1,3 +1,6 @@
+server:
+  port: 8181
+
 twitter-extractor:
   twitter-keywords:
     - Java
@@ -26,6 +29,7 @@ kafka-config:
     -  twitter-topic
   num-of-partitions: 3
   replication-factor: 3
+
 kafka-producer-config:
   key-serializer-class: org.apache.kafka.common.serialization.LongSerializer
   value-serializer-class: io.confluent.kafka.serializers.KafkaAvroSerializer
