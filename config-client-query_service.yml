@@ -11,7 +11,7 @@ elastic-query-config:
 
 
 elastic-config:
-  is-reposity: false
+  is-repository: false
   index-name: twitter-index
   connection-url: http://localhost:9200
   connect-timeout-ms: 5000
